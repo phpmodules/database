@@ -1,0 +1,24 @@
+{
+    "name": "phpmodules/database",
+    "description": "database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "twn39",
+            "email": "twn39@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "PHPModules\\Database\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.6"
+    },
+    "require-dev": {
+        "pimple/pimple": "^3.2"
+    }
+}
